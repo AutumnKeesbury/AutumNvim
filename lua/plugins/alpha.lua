@@ -26,7 +26,7 @@ return {
     }
     -- stylua: ignore
     vim.api.nvim_set_hl(0, "AlphaHeader", { fg = "#ee964b" }) -- Orange-Tan
-    vim.api.nvim_set_hl(0, "AlphaShortcut", { fg = "ce4257" }) -- Light Magenta
+    vim.api.nvim_set_hl(0, "AlphaShortcut", { fg = "#ce4257" }) -- Light Magenta
     vim.api.nvim_set_hl(0, "AlphaFooter", { fg = "#edd691" })
 
     dashboard.section.header.opts.hl = "AlphaHeader"
